@@ -1,17 +1,18 @@
 {
   "name": "rbtbuilds",
-  "description": "Security and developer tools for Claude Code by rbtbuilds",
-  "version": "1.0.0",
+  "owner": {
+    "name": "rbtbuilds"
+  },
+  "metadata": {
+    "description": "Security and developer tools for Claude Code",
+    "homepage": "https://github.com/rbtbuilds"
+  },
   "plugins": [
     {
       "name": "sentinel",
       "version": "1.0.0",
-      "description": "AI-powered penetration testing. White-box security analysis with live exploitation.",
-      "source": {
-        "type": "git",
-        "url": "https://github.com/rbtbuilds/sentinel.git"
-      },
-      "keywords": ["security", "pentest", "vulnerability", "audit"]
+      "source": "./plugin",
+      "description": "AI-powered penetration testing. White-box security analysis with live exploitation."
     }
   ]
 }
