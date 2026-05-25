@@ -22,7 +22,7 @@
         "url": "git@github.com:rbtbuilds/product-dev-pack.git",
         "ref": "v0.1.0"
       },
-      "description": "Complete product-development agent team — 72 specialists across the full lifecycle from discovery to ship. Includes agent-dispatcher + /dispatch slash command. Companion: marketing-pack.",
+      "description": "Complete product-development agent team \u2014 72 specialists across the full lifecycle from discovery to ship. Includes agent-dispatcher + /dispatch slash command. Companion: marketing-pack.",
       "category": "development",
       "homepage": "https://github.com/rbtbuilds/product-dev-pack"
     },
@@ -34,9 +34,21 @@
         "url": "git@github.com:rbtbuilds/marketing-pack.git",
         "ref": "v0.1.0"
       },
-      "description": "Marketing & paid-media agent team — 26 specialists across always-on channels + 5-phase campaign lifecycle. Includes marketing-dispatcher + /dispatch-marketing slash command. Companion: product-dev-pack.",
+      "description": "Marketing & paid-media agent team \u2014 26 specialists across always-on channels + 5-phase campaign lifecycle. Includes marketing-dispatcher + /dispatch-marketing slash command. Companion: product-dev-pack.",
       "category": "marketing",
       "homepage": "https://github.com/rbtbuilds/marketing-pack"
+    },
+    {
+      "name": "sales-pack",
+      "version": "0.1.0",
+      "source": {
+        "source": "git",
+        "url": "git@github.com:rbtbuilds/sales-pack.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Sales agent team \u2014 8 specialists across 5-stage pipeline (Prospect \u2192 Qualify \u2192 Solution \u2192 Close \u2192 Expand) + cross-cutting coach/pipeline-analyst. Includes sales-dispatcher + /dispatch-sales slash command. Companions: product-dev-pack + marketing-pack.",
+      "category": "sales",
+      "homepage": "https://github.com/rbtbuilds/sales-pack"
     }
   ]
 }
