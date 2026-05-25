@@ -4,7 +4,7 @@
     "name": "rbtbuilds"
   },
   "metadata": {
-    "description": "Security and developer tools for Claude Code",
+    "description": "BentoLabs agent packs and security tooling for Claude Code",
     "homepage": "https://github.com/rbtbuilds"
   },
   "plugins": [
@@ -13,6 +13,30 @@
       "version": "1.0.0",
       "source": "./plugin",
       "description": "AI-powered penetration testing. White-box security analysis with live exploitation."
+    },
+    {
+      "name": "product-dev-pack",
+      "version": "0.1.0",
+      "source": {
+        "source": "git",
+        "url": "git@github.com:rbtbuilds/product-dev-pack.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Complete product-development agent team — 72 specialists across the full lifecycle from discovery to ship. Includes agent-dispatcher + /dispatch slash command. Companion: marketing-pack.",
+      "category": "development",
+      "homepage": "https://github.com/rbtbuilds/product-dev-pack"
+    },
+    {
+      "name": "marketing-pack",
+      "version": "0.1.0",
+      "source": {
+        "source": "git",
+        "url": "git@github.com:rbtbuilds/marketing-pack.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Marketing & paid-media agent team — 26 specialists across always-on channels + 5-phase campaign lifecycle. Includes marketing-dispatcher + /dispatch-marketing slash command. Companion: product-dev-pack.",
+      "category": "marketing",
+      "homepage": "https://github.com/rbtbuilds/marketing-pack"
     }
   ]
 }
