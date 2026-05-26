@@ -49,6 +49,18 @@
       "description": "Sales agent team \u2014 8 specialists across 5-stage pipeline (Prospect \u2192 Qualify \u2192 Solution \u2192 Close \u2192 Expand) + cross-cutting coach/pipeline-analyst. Includes sales-dispatcher + /dispatch-sales slash command. Companions: product-dev-pack + marketing-pack.",
       "category": "sales",
       "homepage": "https://github.com/rbtbuilds/sales-pack"
+    },
+    {
+      "name": "legal-finance-pack",
+      "version": "0.1.0",
+      "source": {
+        "source": "git",
+        "url": "git@github.com:rbtbuilds/legal-finance-pack.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Accountant + lawyer team for the full business \u2014 9 specialists covering bookkeeping, AP, FP&A, tax (the bridge), contract review, GDPR/compliance, and SOC 2/ISO/HIPAA audits. 2-tree dispatch (RECURRING-OPS + PROJECT). Includes legal-finance-dispatcher + /dispatch-legal-finance slash command. Companions: product-dev-pack, marketing-pack, sales-pack.",
+      "category": "operations",
+      "homepage": "https://github.com/rbtbuilds/legal-finance-pack"
     }
   ]
 }
