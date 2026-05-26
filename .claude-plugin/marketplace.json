@@ -61,6 +61,18 @@
       "description": "Accountant + lawyer team for the full business \u2014 9 specialists covering bookkeeping, AP, FP&A, tax (the bridge), contract review, GDPR/compliance, and SOC 2/ISO/HIPAA audits. 2-tree dispatch (RECURRING-OPS + PROJECT). Includes legal-finance-dispatcher + /dispatch-legal-finance slash command. Companions: product-dev-pack, marketing-pack, sales-pack.",
       "category": "operations",
       "homepage": "https://github.com/rbtbuilds/legal-finance-pack"
+    },
+    {
+      "name": "outreach-pack",
+      "version": "0.1.0",
+      "source": {
+        "source": "git",
+        "url": "git@github.com:rbtbuilds/outreach-pack.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Founder-voice outreach team for investor fundraising + high-touch client BD \u2014 9 specialists across FOUNDATION \u2192 OUTREACH \u2192 CADENCE stages, audience-routed for INVESTOR / CLIENT / BOTH. Includes outreach-dispatcher + /dispatch-outreach slash command. Story-driven and 1:1 (not signal-based \u2014 that's sales-pack). Companions: product-dev-pack, marketing-pack, sales-pack, legal-finance-pack.",
+      "category": "fundraising",
+      "homepage": "https://github.com/rbtbuilds/outreach-pack"
     }
   ]
 }
