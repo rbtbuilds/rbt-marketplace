@@ -18,8 +18,8 @@
       "name": "product-dev-pack",
       "version": "0.1.0",
       "source": {
-        "source": "git",
-        "url": "git@github.com:rbtbuilds/product-dev-pack.git",
+        "source": "url",
+        "url": "https://github.com/rbtbuilds/product-dev-pack.git",
         "ref": "v0.1.0"
       },
       "description": "Complete product-development agent team \u2014 72 specialists across the full lifecycle from discovery to ship. Includes agent-dispatcher + /dispatch slash command. Companion: marketing-pack.",
@@ -30,8 +30,8 @@
       "name": "marketing-pack",
       "version": "0.1.0",
       "source": {
-        "source": "git",
-        "url": "git@github.com:rbtbuilds/marketing-pack.git",
+        "source": "url",
+        "url": "https://github.com/rbtbuilds/marketing-pack.git",
         "ref": "v0.1.0"
       },
       "description": "Marketing & paid-media agent team \u2014 26 specialists across always-on channels + 5-phase campaign lifecycle. Includes marketing-dispatcher + /dispatch-marketing slash command. Companion: product-dev-pack.",
@@ -42,8 +42,8 @@
       "name": "sales-pack",
       "version": "0.1.0",
       "source": {
-        "source": "git",
-        "url": "git@github.com:rbtbuilds/sales-pack.git",
+        "source": "url",
+        "url": "https://github.com/rbtbuilds/sales-pack.git",
         "ref": "v0.1.0"
       },
       "description": "Sales agent team \u2014 8 specialists across 5-stage pipeline (Prospect \u2192 Qualify \u2192 Solution \u2192 Close \u2192 Expand) + cross-cutting coach/pipeline-analyst. Includes sales-dispatcher + /dispatch-sales slash command. Companions: product-dev-pack + marketing-pack.",
@@ -54,8 +54,8 @@
       "name": "legal-finance-pack",
       "version": "0.1.0",
       "source": {
-        "source": "git",
-        "url": "git@github.com:rbtbuilds/legal-finance-pack.git",
+        "source": "url",
+        "url": "https://github.com/rbtbuilds/legal-finance-pack.git",
         "ref": "v0.1.0"
       },
       "description": "Accountant + lawyer team for the full business \u2014 9 specialists covering bookkeeping, AP, FP&A, tax (the bridge), contract review, GDPR/compliance, and SOC 2/ISO/HIPAA audits. 2-tree dispatch (RECURRING-OPS + PROJECT). Includes legal-finance-dispatcher + /dispatch-legal-finance slash command. Companions: product-dev-pack, marketing-pack, sales-pack.",
@@ -66,8 +66,8 @@
       "name": "outreach-pack",
       "version": "0.1.0",
       "source": {
-        "source": "git",
-        "url": "git@github.com:rbtbuilds/outreach-pack.git",
+        "source": "url",
+        "url": "https://github.com/rbtbuilds/outreach-pack.git",
         "ref": "v0.1.0"
       },
       "description": "Founder-voice outreach team for investor fundraising + high-touch client BD \u2014 9 specialists across FOUNDATION \u2192 OUTREACH \u2192 CADENCE stages, audience-routed for INVESTOR / CLIENT / BOTH. Includes outreach-dispatcher + /dispatch-outreach slash command. Story-driven and 1:1 (not signal-based \u2014 that's sales-pack). Companions: product-dev-pack, marketing-pack, sales-pack, legal-finance-pack.",
@@ -78,8 +78,8 @@
       "name": "evaluation-pack",
       "version": "0.1.0",
       "source": {
-        "source": "git",
-        "url": "git@github.com:rbtbuilds/evaluation-pack.git",
+        "source": "url",
+        "url": "https://github.com/rbtbuilds/evaluation-pack.git",
         "ref": "v0.1.0"
       },
       "description": "Pre-production evaluation team \u2014 eval-driven methodology (5 NEW agents anchored to Anthropic's Eval-Driven Agent Development workshop) + final ship-gate (4 PDP QA overrides) across a 5-stage linear gate: DESIGN-EVAL \u2192 BUILD-EVAL \u2192 RUN \u2192 ITERATE \u2192 SHIP-GATE. Includes evaluation-dispatcher + /dispatch-evaluation slash command. Companions: product-dev-pack, marketing-pack, sales-pack, legal-finance-pack, outreach-pack.",
